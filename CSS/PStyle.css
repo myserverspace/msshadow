@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+
+*{margin: 0; padding: 0;}
+
+.Pic{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    /*transform: translateX(400%);*/
+    justify-content: center;
+    /*transition: 0.4s;*/
+}
+/*
+.Pic:nth-of-type(even){
+    transform: translateX(-400%);
+}
+.Pic.show{
+    transform: translateX(0);
+}
+.scroll-div{
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-items: center;
+    align-items: center;
+}
+*/
+/*Reponsive for Desktop Screen Views*/
+@media(min-width: 992px) and (max-width: 1920px){
+    body{
+        background-image: url(../Background-image/bground.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+    }
+}
+
+/*Reponsive for Laptop Screen Views*/
+@media(min-width: 1366px) and (max-width: 1919px){
+    body{
+        background-image: url(../Background-image/bground.jpg);
+        background-color: azure;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px){
+    body{
+        background-color: azure;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+    }
+    #view{
+        display: flex;
+        overflow-x: hidden;
+        width: 90%;
+        height: 500px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    }
+    .hmenu{list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 10px;  width: 100%;}
+    .hmenu li{display: inline-block;width: 14%;}
+    .hmenu a{display: block; text-align: center; text-decoration: none;color: white;border-radius: 6px; padding: 12px 0 8px;}
+    .hmenu a:hover{background-color: rgb(111, 156, 7);}
+    .hmenu a{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 7px;}
+    footer{
+        list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 8px;  width: 100%; height: 65px;
+        font-size: 8px;
+    }
+    #Doc{
+        display: flex;
+        overflow-x: hidden;
+        width: 70%;
+        height: 600px;
+        border-radius: 8px;  
+        margin-right: 10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    }
+    #btn{
+        display: flex;
+        overflow-x: hidden;
+        width: 10px;
+        height: 30px;
+        font-size: 9px;
+        background-color: darkslateblue;
+        border-radius: 50px;
+        color: white;
+        border-color: cyan;
+        box-shadow: #094c66 4px 4px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    body{
+        background-color: azure;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+    }
+    #view{
+        display: flex;
+        overflow-x: hidden;
+        width: 90%;
+        height: 100px;
+        margin-right: 10px;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    }
+    .hmenu{list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 10px;  width: 100%;}
+    .hmenu li{display: inline-block;width: 14%;}
+    .hmenu a{display: block; text-align: center; text-decoration: none;color: white;border-radius: 6px; padding: 12px 0 8px;}
+    .hmenu a:hover{background-color: rgb(111, 156, 7);}
+    .hmenu a{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 7px;}
+    footer{
+        list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 8px;  width: 100%; height: 65px;
+        font-size: 8px;
+    }
+    #Doc{
+        display: flex;
+        overflow-x: hidden;
+        width: 70%;
+        height: 600px;
+        border-radius: 8px;  
+        margin-right: 10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    }
+    #btn{
+        display: flex;
+        overflow-x: hidden;
+        width: 10px;
+        height: 30px;
+        font-size: 9px;
+        background-color: darkslateblue;
+        border-radius: 50px;
+        color: white;
+        border-color: cyan;
+        box-shadow: #094c66 4px 4px 0px;
+    }
+}
+body{
+    background: url(../Background-image/bground.jpg);
+    background-image: url(../Background-image/bground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#btn{
+    display: flex;
+    overflow-x: hidden;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    color: white;
+    border-color: cyan;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #094c66 4px 4px 0px;
+}
+#btn:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+#btn:hover{
+    font-size: 15px;
+}
+#Photo{
+    overflow-x: hidden;
+    display: flex;  
+    justify-content: center;
+    width: 200px;
+    height: 107px;
+}
+#Doc{
+    width: 100%;
+    height: 800px;
+    border-radius: 8px;  
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+}
+.docbox{
+    overflow-x: hidden;
+    display: flex;  
+    justify-content: center;
+}
