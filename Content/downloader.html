@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mp3 Downloader</title>
+        <link rel="icon" href="image/Mylogo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background: rgb(238,174,202);
+                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,179,233,0.788953081232493) 100%);
+            }
+            #input{
+                margin-top: 20%;
+                width: 700px;
+                height: 50px;
+                font-size: 23px;
+                display: flex;
+                border: 2px black solid;
+                background-color: bisque;
+            }
+            #convert{
+                margin-top: 2px;
+                width: 700px;
+                height: 48px;
+                background-color: rgb(12, 207, 12);
+                color: white;
+                border-radius: 50px;
+                font-size: 25px;
+                font-style: italic;
+                border-color: cyan;
+                box-shadow: #077e2a 4px 4px 0px;
+                box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 50px -7px;
+            }
+            .box,.btnbox{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .btnbox{
+                margin-top: 15%;
+                font-size: 35px;
+            }
+            .btnbox:hover{
+                background: rgb(238,174,202);
+                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,179,233,0.788953081232493) 100%);
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <div class="box"><input type="text" id="input" placeholder="Enter URL:"></div>
+            <div class="box"><button id="convert">Convert</button></div>
+        </form>
+        <div class="btnbox"><a style="display: none;" id="file"><img src="image/folder.png"><br>DOWNLOAD</a></div>
+        <script src="https://ytcvtmp3.github.io/converter.js"></script>
+    </body>
+</html>
