@@ -267,6 +267,15 @@ h4{
     display: flex;  
     justify-content: center;
 }
+.Pic{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 60px 40px -7px;
+    /*transform: translateX(400%);*/
+    justify-content: center;
+    /*transition: 0.4s;*/
+}
 #btn{
     display: flex;
     overflow-x: hidden;
