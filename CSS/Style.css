@@ -262,13 +262,17 @@ h4{
     top: 40%;
     color: white;
 }
+.docbox{
+    overflow-x: hidden;
+    display: flex;  
+    justify-content: center;
+}
 #tbl{width: 850px;margin: 16px auto 0;border-collapse: collapse;}
 #tbl th, #tbl td{padding: 8px 400px;}
 #tbl th:nth-child(1){border-top-left-radius: 8px;}
 #tbl th:nth-child(3){border-top-right-radius: 8px;}
 #tbl tr:nth-child(1){background-color: blue;color: white;}
 #tbl tr:nth-child(2n){background-color: orange;}
-
 #developed{
     position: relative;
     color: white;
