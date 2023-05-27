@@ -267,6 +267,18 @@ h4{
     display: flex;  
     justify-content: center;
 }
+#btn{
+    display: flex;
+    overflow-x: hidden;
+    width: 10px;
+    height: 30px;
+    font-size: 9px;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    color: white;
+    border-color: cyan;
+    box-shadow: #094c66 4px 4px 0px;
+}
 #tbl{width: 850px;margin: 16px auto 0;border-collapse: collapse;}
 #tbl th, #tbl td{padding: 8px 400px;}
 #tbl th:nth-child(1){border-top-left-radius: 8px;}
