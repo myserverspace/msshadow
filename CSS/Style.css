@@ -318,7 +318,7 @@ h4{
 #btn:hover{
     font-size: 15px;
 }
-#tbl{overflow-x: hidden;
+.Tbc{overflow-x: hidden;
     display: flex;  
     justify-content: center;
     align-items: center;
