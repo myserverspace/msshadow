@@ -36,6 +36,27 @@ body{
         overflow-x: hidden;
         margin: 0;
     }
+    #btn{
+    display: flex;
+    overflow-x: hidden;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    color: white;
+    border-color: cyan;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #094c66 4px 4px 0px;
+}
+#btn:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+#btn:hover{
+    font-size: 15px;
+}
 }
 
 /*Reponsive for Laptop Screen Views*/
@@ -105,6 +126,27 @@ body{
         overflow-x: hidden;
         margin: 0;
     }
+    #btn{
+    display: flex;
+    overflow-x: hidden;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    background-color: darkslateblue;
+    border-radius: 50px;
+    color: white;
+    border-color: cyan;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #094c66 4px 4px 0px;
+}
+#btn:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+#btn:hover{
+    font-size: 15px;
+}
     .hmenu{list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 3px;  width: 100%;}
     .hmenu li{display: inline-block;width: 12%;}
     .hmenu a{display: block; text-align: center; text-decoration: none;color: white;border-radius: 6px; padding: 12px 0 8px;}
