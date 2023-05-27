@@ -318,6 +318,11 @@ h4{
 #btn:hover{
     font-size: 15px;
 }
+#tbl{overflow-x: hidden;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
 #tbl{width: 250px;margin: 16px auto 0;border-collapse: collapse;}
 #tbl th, #tbl td{padding: 8px 100px;}
 /*#tbl th:nth-child(1){border-top-left-radius: 8px;}
