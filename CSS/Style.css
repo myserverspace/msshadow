@@ -350,11 +350,6 @@ h4{
 #btn:hover{
     font-size: 15px;
 }
-.Tbc{overflow-x: hidden;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-}
 #developed{
     position: relative;
     color: white;
