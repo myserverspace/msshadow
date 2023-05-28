@@ -138,10 +138,20 @@ body{
         border-color: cyan;
         box-shadow: #094c66 4px 4px 0px;
     }
+    
     .Tbc{
-        position: relative;
-        left: 0px;
+        overflow-x: hidden;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
     }
+    #tbl{width: 100px;margin: 13px auto 0;border-collapse: collapse;}
+    #tbl th, #tbl td{padding: 8px 100px;}
+    /*#tbl th:nth-child(1){border-top-left-radius: 8px;}
+    #tbl th:nth-child(3){border-top-right-radius: 8px;}*/
+    #tbl tr:nth-child(1){background-color: blue;color: white;}
+    #tbl tr:nth-child(2n){background-color: orange;}
+    
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;}
 }
 
@@ -222,10 +232,19 @@ body{
     }
     .Form li{display: inline-block; width: 10%;}
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;} 
+    
     .Tbc{
-        position: relative;
-        left: 0px;
+        overflow-x: hidden;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
     }
+    #tbl{width: 100px;margin: 13px auto 0;border-collapse: collapse;}
+    #tbl th, #tbl td{padding: 8px 100px;}
+    /*#tbl th:nth-child(1){border-top-left-radius: 8px;}
+    #tbl th:nth-child(3){border-top-right-radius: 8px;}*/
+    #tbl tr:nth-child(1){background-color: blue;color: white;}
+    #tbl tr:nth-child(2n){background-color: orange;}
 }
 /*Image Scroll Display*/
 .box{
