@@ -141,10 +141,9 @@ body{
     
     .Tbc{
         position: relative;
-        margin-top: 20px;
-        left: 45%;
+        left: 15%;
     }
-  
+    #tbl{width: 250px;margin: 16px auto 0;border-collapse: collapse;}
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;}
 }
 
@@ -228,9 +227,9 @@ body{
     
     .Tbc{
         position: relative;
-        margin-top: 20px;
-        left: 45%;
+        left: 15%;
     }
+    #tbl{width: 250px;margin: 16px auto 0;border-collapse: collapse;}
 }
 /*Image Scroll Display*/
 .box{
