@@ -141,7 +141,7 @@ body{
     
     .Tbc{
         position: relative;
-        left: 15%;
+        left: 5%;
     }
     #tbl{width: 250px;margin: 16px auto 0;border-collapse: collapse;}
     #tbl tr:nth-child(1){background-color: blue;color: white;}
@@ -229,7 +229,7 @@ body{
     
     .Tbc{
         position: relative;
-        left: 15%;
+        left: 5%;
     }
     #tbl{width: 250px;margin: 16px auto 0;border-collapse: collapse;}
     #tbl tr:nth-child(1){background-color: blue;color: white;}
