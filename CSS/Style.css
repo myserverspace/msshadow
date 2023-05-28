@@ -143,7 +143,6 @@ body{
         overflow-x: hidden;
         display: flex;  
         justify-content: center;
-        align-items: center;
     }
     #tbl{width: 100px;margin: 13px auto 0;border-collapse: collapse;}
     #tbl th, #tbl td{padding: 8px 100px;}
@@ -237,7 +236,6 @@ body{
         overflow-x: hidden;
         display: flex;  
         justify-content: center;
-        align-items: center;
     }
     #tbl{width: 100px;margin: 13px auto 0;border-collapse: collapse;}
     #tbl th, #tbl td{padding: 8px 100px;}
