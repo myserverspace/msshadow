@@ -128,8 +128,8 @@ body{
     }
     .Tbc{
         overflow-x: hidden;
-        position: absolute;
-        left: 0;
+        display: flex;
+        margin-left: 0;
         justify-content: center;
     }
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;}
@@ -232,8 +232,8 @@ body{
     #tbl tr:nth-child(2n){background-color: orange;}
     .Tbc{
         overflow-x: hidden;
-        position: absolute;
-        left: 0;
+        display: flex;
+        margin-left: 0;
         justify-content: center;
     }
 }
