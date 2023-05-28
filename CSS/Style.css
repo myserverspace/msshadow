@@ -127,7 +127,8 @@ body{
         box-shadow: #094c66 4px 4px 0px;
     }
     .Tbc{
-        display: none;
+        position: relative;
+        left: 0px;
     }
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;}
 }
@@ -210,7 +211,8 @@ body{
     .Form li{display: inline-block; width: 10%;}
     p{display: flex; align-items: center; justify-content: center; font-size: 15px; text-align: center;} 
     .Tbc{
-        display: none;
+        position: relative;
+        left: 0px;
     }
 }
 /*Image Scroll Display*/
