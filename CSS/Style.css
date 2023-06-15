@@ -69,6 +69,9 @@ body{
     #tbl th:nth-child(3){border-top-right-radius: 8px;}*/
     #tbl tr:nth-child(1){background-color: blue;color: white;}
     #tbl tr:nth-child(2n){background-color: orange;}
+    footer{
+        margin-top: 50%;
+    }
 }
 
 /*Reponsive for Laptop Screen Views*/
