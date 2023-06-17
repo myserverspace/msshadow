@@ -71,7 +71,7 @@ body{
     #tbl tr:nth-child(2n){background-color: orange;}
     footer{
         position: relative;
-        margin-buttom: 0%;
+        buttom: 0%;
         list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 8px;  width: 100%; height: 65px;
         font-size: 12px;
     }
