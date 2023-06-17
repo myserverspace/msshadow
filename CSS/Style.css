@@ -49,7 +49,7 @@ body{
         align-items: center;
         justify-content: center;
         box-shadow: #094c66 4px 4px 0px;
-        margin-buttom: 100%;
+        margin-top: 100%;
     }
     #btn:active{
         transform: translateY(4px) translateX(4px);
