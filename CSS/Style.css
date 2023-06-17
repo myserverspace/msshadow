@@ -137,6 +137,7 @@ body{
         color: white;
         border-color: cyan;
         box-shadow: #094c66 4px 4px 0px;
+        margin-top: 20%;
     }
     
     #tbl{width: 15px;margin: 16px auto 0;}
