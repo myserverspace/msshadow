@@ -25,7 +25,7 @@ body{
 }
 #Epic{
     width: 70%;
-    height: 900px;
+    height: 700px;
     border-radius: 8px;
 }
 
@@ -305,7 +305,7 @@ h3{
 }
 
 .Abform{
-    list-style-type: none; background-color: rgb(246, 246, 247); width: 100%; height: 450px;
+    list-style-type: none; background-color: rgb(246, 246, 247); width: 100%; height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
