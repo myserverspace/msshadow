@@ -37,6 +37,12 @@
         overflow-x: hidden;
         margin: 0;
     }
+     #Epic{
+        width: 90%;
+        height: 500px;
+        border-radius: 8px;
+        display: flex;
+    }
 }
 
 /*Reponsive for Laptop Screen Views*/
@@ -94,6 +100,12 @@
         color: white;
         border-color: cyan;
         box-shadow: #094c66 4px 4px 0px;
+    }
+     #Epic{
+        width: 90%;
+        height: 500px;
+        border-radius: 8px;
+        display: flex;
     }
 }
 
