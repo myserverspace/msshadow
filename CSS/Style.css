@@ -336,6 +336,11 @@ h4{
     justify-content: center;
     /*transition: 0.4s;*/
 }
+#Epic{
+    width: 450px;
+    height: 400px;
+    border-radius: 8px;
+}
 #btn{
     display: flex;
     overflow-x: hidden;
