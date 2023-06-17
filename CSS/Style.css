@@ -75,8 +75,9 @@ body{
     #tbl tr:nth-child(1){background-color: blue;color: white;}
     #tbl tr:nth-child(2n){background-color: orange;}
     footer{
-        list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 11px;  width: 100%; height: 65px;
+        list-style-type: none; background-color: rgba(52, 2, 65, 0.836); padding: 8px;  width: 100%; height: 65px;
         font-size: 12px;
+        margin-buttom: 10px;
     }
     #Epic{
         width: 450px;
