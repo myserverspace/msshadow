@@ -145,6 +145,12 @@
         border-color: cyan;
         box-shadow: #094c66 4px 4px 0px;
     }
+    #Epic{
+        width: 90%;
+        height: 100px;
+        border-radius: 8px;
+        display: flex;
+    }
 }
 body{
     background: url(../Background-image/bground.jpg);
