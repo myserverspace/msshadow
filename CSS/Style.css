@@ -252,6 +252,7 @@ body{
         width: 30px;
         height: 10px;
     }
+    p{display: flex; align-items: center; justify-content: center; font-size: 22px; text-align: center;} 
 }
 /*Image Scroll Display*/
 .box{
