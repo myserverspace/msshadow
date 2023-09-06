@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/image_2022-10-24_11-32-36.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <style>
         *{
             box-sizing: border-box;
@@ -14,12 +17,14 @@
             align-items: center;
             justify-content: center;
         }
+        .title{
+            font-family: 'Koulen', cursive;
+            color: rgba(0, 0, 0, 0.89);
+        }
         #btn{
             width: 300px;
             height: 70px;
-            margin-top: 30px;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -34,6 +39,7 @@
         #log{
             width: 90px;
             height: 90px;
+            margin-top: 10px;
         }
         h1{
             font-size: 15px;
@@ -49,19 +55,43 @@
         #kh{
             font-size: 24px;
         }
+        #en{
+            font-size: 18px;
+            text-transform: lowercase;
+            margin-bottom: 10px;
+        }
+        body{
+            background: rgb(2,0,36);
+            background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(6,95,170,1) 100%, rgba(9,115,121,1) 100%);
+        }
+        .frm{
+            background-color: white;
+            width: 350px;
+            height: 750px;
+            border-radius: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 3px solid rgb(30, 75, 197);
+        }
     </style>
     <title>social-links</title>
 </head>
 <body>
      <br><br>
-        <div class="logo"><img id="log" src="images/image_2022-10-24_11-32-36.png"></div>
-        <div class="title"><h1 id="kh">សហភាពសហព័ន្ធយុវជនកម្ពុជា</h1></div>
-        <div class="title"><h1>Union of Youth Federations of Cambodia</h1></div>
-        <div class="box"><a href="https://www.facebook.com/uyfccambodia"><button id="btn"><img id="pic" src="images/f_logo_RGB-Blue_1024.png">Facebook</button></a></div>
-        <div class="box"><a href="https://www.tiktok.com/@uyfccambodia?_t=8fK1joFxiJm&_r=1"><button id="btn"><img id="pic" src="images/tik-tok.png">T i k T o k</button></a></div>
-        <div class="box"><a href="https://www.instagram.com/uyfccambodia/"><button id="btn"><img id="pic" src="images/instagram.png">Instagram</button></a></div>
-        <div class="box"><a href="https://t.me/uyfc_news"><button id="btn"><img id="pic" src="images/telegram_PNG26.png">Telegram</button></a></div>
-        <div class="box"><a href="https://www.youtube.com/@unionofyouthfederationcambodia"><button id="btn"><img id="pic" src="images/youtube.png">YouTube</button></a></div>
-        <div class="box"><a href="https://www.uyfc.org"><button id="btn"><img id="pic" src="images/browser.png">Website</button></a></div>
+        <div class="frm">
+            <form>
+                <div class="logo"><img id="log" src="images/image_2022-10-24_11-32-36.png"></div>
+                <div class="title"><h1 id="kh">សហភាពសហព័ន្ធយុវជនកម្ពុជា</h1></div>
+                <div class="title"><h1 id="en">Union of Youth Federations of Cambodia</h1></div>
+                <div class="box"><a href="https://www.facebook.com/uyfccambodia"><button id="btn"><img id="pic" src="images/f_logo_RGB-Blue_1024.png">Facebook</button></a></div>
+                <div class="box"><a href="https://www.tiktok.com/@uyfccambodia?_t=8fK1joFxiJm&_r=1"><button id="btn"><img id="pic" src="images/tik-tok.png">T i k T o k</button></a></div>
+                <div class="box"><a href="https://www.instagram.com/uyfccambodia/"><button id="btn"><img id="pic" src="images/instagram.png">Instagram</button></a></div>
+                <div class="box"><a href="https://t.me/uyfc_news"><button id="btn"><img id="pic" src="images/telegram_PNG26.png">Telegram</button></a></div>
+                <div class="box"><a href="https://www.youtube.com/@unionofyouthfederationcambodia"><button id="btn"><img id="pic" src="images/youtube.png">YouTube</button></a></div>
+                <div class="box"><a href="https://www.youtube.com/@unionofyouthfederationcambodia"><button id="btn"><img id="pic" src="images/browser.png">Website</button></a></div>
+            </form>
+        </div>
 </body>
 </html>
